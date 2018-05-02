@@ -8,13 +8,13 @@ Using data from alphavantage.com, 10 sector ETFs (Tech, Finacial, etc) are analy
 This model could be applied to the portfolio management strategy of sector rotation, where investors target specific sectors for growth upside compared to other areas of the market. Another application of this model is to target a sector for a short-term swing trade, using the recurrency of the network to generate exact movement predictions for the next X weeks. 
 
 The sectors and their respective ETFs are
-Healthcare: XLV
-Energy: XLE
-Financials: XLF
-Utilities: XLU
-Tech: XLK
-Consumer Disc: XLY
-Consumer Staples: XLP
-Materials: XLB
-Industrials: XLI
+Healthcare: XLV,
+Energy: XLE,
+Financials: XLF,
+Utilities: XLU,
+Tech: XLK,
+Consumer Disc: XLY,
+Consumer Staples: XLP,
+Materials: XLB,
+Industrials: XLI,
 Real Estate: IYR
