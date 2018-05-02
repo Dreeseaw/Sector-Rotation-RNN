@@ -18,3 +18,8 @@ Consumer Staples: XLP,
 Materials: XLB,
 Industrials: XLI,
 Real Estate: IYR
+
+All .txt files are used to store data, as alphavantage has a (annoyingly-low) limit on api call requests. 
+The Data Prep class is used to parse out the csv files from alphavantage (when you run it for current data), as well as prepare it to train the model. 
+Sector Rotation Visuals utilizes matplotlib to graphically display the sector returns for the past two years. 
+The model lies in the SectorRotationModel file, which uses the class from the Data Prep file for it's training and testing data.  
